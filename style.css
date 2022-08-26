@@ -1,0 +1,192 @@
+.container {
+    background-image:url(./assets/home.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+    justify-content: space-between;
+    width: 99vw;
+}
+.ancients {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cthulthu {
+    display: flex;
+    background-image:url(./assets/Ancients/Cthulthu.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 260px;
+
+}
+.azathoth {
+    background-image:url(./assets/Ancients/Azathoth.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 260px;
+}
+.iogsothoth {
+    background-image:url(./assets/Ancients/IogSothoth.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 260px;
+}
+.shubniggurath {
+    background-image:url(./assets/Ancients/ShubNiggurath.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 260px;
+}
+.difficult {
+    transition: 2s;
+    display: flex;
+    justify-content: center;
+}
+.very_easy{
+    margin: 0 20px;
+    font-size: 50px;
+    color: #fff;
+    border: 2px solid brown;
+}
+.very_hard {
+    margin: 0 20px;
+    font-size: 50px;
+    color: #fff;
+    border: 2px solid brown;
+}
+.very_easy:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.very_hard:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.easy{
+    margin: 0 20px;
+    font-size: 50px;
+    color: #fff;
+    border: 2px solid brown;
+}
+.easy:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.normal{
+    color: #fff;
+    margin: 0 20px;
+    font-size: 50px;
+    border: 2px solid brown;;
+}
+.normal:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.hard{
+    color: #fff;
+    margin: 0 20px;
+    font-size: 50px;
+    border: 2px solid brown;;
+}
+.hard:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.сard_deck {
+    display: flex;
+    justify-content: space-around;
+}
+.current-state {
+    margin:40px 0 50px 30px;
+    font-size: 30px;
+}
+.f_stage-title {
+    font-size: 30px;
+    color: #fff ;
+}
+.f_stage {
+    display: flex;
+    justify-content: space-between;
+}
+.f_stage div:nth-child(1){
+    padding: 0 15px;
+    background-color: green
+}
+.f_stage div:nth-child(2){
+    padding: 0 15px;
+    background-color: brown;
+}
+.f_stage div:nth-child(3){
+    padding: 0 15px;
+    background-color: navy;
+}
+.s_stage-title {
+    font-size: 30px;
+    color: #fff;
+}
+.s_stage {
+    display: flex;
+    justify-content: space-between;
+}
+.s_stage div:nth-child(1){
+    padding: 0 15px;
+    background-color: green
+}
+.s_stage div:nth-child(2){
+    padding: 0 15px;
+    background-color: brown;
+}
+.s_stage div:nth-child(3){
+    padding: 0 15px;
+    background-color: navy;
+}
+.t_stage-title {
+    font-size: 30px;
+    color: #fff;
+}
+.t_stage {
+    display: flex;
+    justify-content: space-between;
+}
+.t_stage div:nth-child(1){
+    padding: 0 15px;
+    background-color: green
+}
+.t_stage div:nth-child(2){
+    padding: 0 15px;
+    background-color: brown;
+}
+.t_stage div:nth-child(3){
+    padding: 0 15px;
+    background-color: navy;
+}
+.deck {
+    margin: 0 0 50px 0;
+    width: 200px;
+    background: url(./assets/mythicCardBackground.png)  no-repeat;
+}
+.last-card {
+    margin: 0 0 50px 0;
+    width: 200px;
+    height: 290px;
+    background-size: cover;
+}
+.active{
+    box-shadow: 0 0 10px red;
+}
+.active_two{
+    background-color: brown;
+    box-shadow: 0 0 10px red;
+}
