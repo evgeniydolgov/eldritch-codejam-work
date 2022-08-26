@@ -25,6 +25,9 @@ const cthulthu = document.querySelector('.cthulthu');
 const iogsothoth = document.querySelector('.iogsothoth');
 const shubniggurath = document.querySelector('.shubniggurath');
 const ancients = document.querySelector('.ancients');
+
+azathoth.classList.add('active');
+
 let anc = [azathoth,cthulthu,iogsothoth,shubniggurath];
 anc.forEach(function(item, index) {
     item.setAttribute('ancientIsChecked', index)
